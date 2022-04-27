@@ -59,3 +59,12 @@
     border-radius: 20px;
     padding: 2px;
 }
+#presentation a {
+    text-decoration: none;
+}
+#presentation span {
+    color: #555;
+}
+#presentation #playstation-5 {
+    width: 80%;
+}
