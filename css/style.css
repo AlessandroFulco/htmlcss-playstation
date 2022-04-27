@@ -66,5 +66,9 @@
     color: #555;
 }
 #presentation #playstation-5 {
-    width: 80%;
+    width: 100%;
+}
+#presentation .thumb {
+    width: 100%;
+
 }
