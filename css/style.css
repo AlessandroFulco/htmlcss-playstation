@@ -1,0 +1,14 @@
+/* regole nav-bar components BS5 */
+#container-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#container-nav-bar .nav-link {
+    color: #000;
+}
+#icon-search {
+    margin-left: 20px;
+    font-size: 20px;
+}
