@@ -45,10 +45,7 @@
     border-color: #cd3d0f;
     color: #fff;
 }
-#more-img-jumbo img {
-    /* max-width: 100%;
-    min-width: 80%; */
-}
+
 #more-img-jumbo img {
     width: 100%;
     height: auto;
@@ -59,6 +56,8 @@
     border-radius: 20px;
     padding: 2px;
 }
+
+/* sez presentation playstation */
 #presentation a {
     text-decoration: none;
 }
@@ -69,6 +68,80 @@
     width: 100%;
 }
 #presentation .thumb {
-    width: 100%;
+    width: 60%;
+}
+#presentation figure {
+    text-align: center;
+}
+#presentation figure figcaption span {
+    vertical-align: super;
+    font-size: 10px;
+}
+#presentation figure.active figcaption  {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0072ce;
+}
 
+/* jumbotron 2 */
+/* debug */
+.jumbotron {
+    width: 100%;
+    min-height: 400px;
+    background-color: red;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+}
+.jumbotron .text-jumbo {
+    color: #fff;
+}
+.jumbotron .text-jumbo img {
+    width: 250px;
+    height: auto;
+}
+.jumbotron .text-jumbo h1 {
+    margin-bottom: 30px;
+}
+.jumbotron .text-jumbo button {
+    margin-top: 30px;
+}
+
+/* sez nuove uscite */
+#new {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+#new .row img {
+    width: 100%;
+    border-radius: 20px;
+}
+#new figure figcaption {
+    margin-top: 10px;
+}
+#new figure figcaption span {
+    vertical-align: super;
+    font-size: 10px;
+}
+
+/* more playstation */
+#more {
+    padding: 80px 0;
+}
+#more h1 span {
+    vertical-align: super;
+    font-size: 24px;
+}
+.title {
+    text-align: center;
+}
+#more .content h2 {
+    font-weight: bold;
+}
+#more .content img {
+    width: 100%;
+    height: auto;
 }
