@@ -196,9 +196,44 @@ body {
 #social img {
     width: 90%;
 }
-
-
-
+/* footer */
+footer {
+    background-color: #00439c;
+    color: #fff;
+    font-size: 14px;
+}
+/* footer up */
+footer #logo {
+    width: 150px;
+    height: auto;
+}
+#region {
+    display: flex;
+    align-items: center;
+}
+#globe {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+/* footer down */
+#sie {
+    width: 150px;
+    height: auto;
+}
+footer .info {
+    color: #fff;
+}
 /* media query */
 @media all and (max-width: 768px) {
     .text-right {
