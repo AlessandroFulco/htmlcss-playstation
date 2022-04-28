@@ -1,3 +1,23 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+/* regole generali */
+#plus img, #now img {
+    width: 100%;
+    height: auto;
+}
+#plus .text-left img, #now .text-left img {
+    width: 70%;
+    height: auto;
+}
+#plus button, #now button {
+    color: #2d64e6;
+    font-weight: 600;
+}
+
+
+
 /* regole nav-bar components BS5 */
 #container-nav-bar {
     position: fixed;
@@ -144,4 +164,35 @@
 #more .content img {
     width: 100%;
     height: auto;
+}
+/* play plus */
+#plus {
+    width: 100%;
+    background-color: #bebcbb;
+}
+
+/* sales */
+#sales {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+
+/* play-now */
+#now {
+    color: #fff;
+    width: 100%;
+    background-color: #161c3b;
+}
+
+
+
+
+
+/* media query */
+@media all and (max-width: 768px) {
+    .text-right {
+        display: none;
+    }
 }
