@@ -1,5 +1,6 @@
 body {
     font-family: arial, helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 /* regole generali */
@@ -174,7 +175,12 @@ body {
 }
 
 /* sales */
-
+#sales {
+    text-align: center;
+}
+#sales img {
+    width: 100%;
+}
 
 /* play-now */
 #now {
@@ -183,7 +189,13 @@ body {
     background-color: #161c3b;
 }
 
-
+/* social */
+#social {
+    text-align: center;
+}
+#social img {
+    width: 90%;
+}
 
 
 
