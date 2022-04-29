@@ -1,6 +1,5 @@
 body {
     font-family: arial, helvetica, sans-serif;
-    overflow-x: hidden;
 }
 
 /* regole generali */
@@ -16,7 +15,9 @@ body {
     color: #2d64e6;
     font-weight: 600;
 }
-
+.fl-brt {
+    filter: opacity(50%);
+}
 
 
 /* regole nav-bar components BS5 */
@@ -124,12 +125,7 @@ body {
     width: 250px;
     height: auto;
 }
-.jumbotron .text-jumbo h1 {
-    margin-bottom: 30px;
-}
-.jumbotron .text-jumbo button {
-    margin-top: 30px;
-}
+
 
 /* sez nuove uscite */
 #new {
@@ -173,7 +169,10 @@ body {
     width: 100%;
     background-color: #bebcbb;
 }
-
+#plus button {
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
 /* sales */
 #sales {
     text-align: center;
