@@ -1,7 +1,6 @@
 body {
     font-family: arial, helvetica, sans-serif;
 }
-
 /* regole generali */
 #plus img, #now img {
     width: 100%;
@@ -18,8 +17,6 @@ body {
 .fl-brt {
     filter: opacity(50%);
 }
-
-
 /* regole nav-bar components BS5 */
 #container-nav-bar {
     position: fixed;
@@ -37,7 +34,6 @@ body {
     margin-left: 20px;
     font-size: 20px;
 }
-
 /* regole Jumbotron */
 #jumbotron {
     margin-top: 80px;
@@ -80,7 +76,6 @@ body {
     border-radius: 20px;
     padding: 2px;
 }
-
 /* sez presentation playstation */
 #presentation a {
     text-decoration: none;
@@ -105,7 +100,6 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #0072ce;
 }
-
 /* jumbotron 2 */
 /* debug */
 .jumbotron {
@@ -125,8 +119,6 @@ body {
     width: 250px;
     height: auto;
 }
-
-
 /* sez nuove uscite */
 #new {
     padding-top: 30px;
@@ -145,7 +137,6 @@ body {
     vertical-align: super;
     font-size: 10px;
 }
-
 /* more playstation */
 #more {
     padding: 80px 0;
@@ -187,7 +178,6 @@ body {
     width: 100%;
     background-color: #161c3b;
 }
-
 /* social */
 #social {
     text-align: center;
