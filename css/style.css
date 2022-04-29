@@ -18,54 +18,56 @@ body {
     filter: opacity(50%);
 }
 /* regole nav-bar components BS5 */
-#container-nav-bar {
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 76px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600;    
 }
-#container-nav-bar .nav-link {
+#meu-nav .nav-link {
     color: #000;
 }
 #icon-search {
     margin-left: 20px;
     font-size: 20px;
 }
-/* regole Jumbotron */
-#jumbotron {
-    margin-top: 80px;
-}
-#jumbotron #bg-image {
-    background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
+/* regole generali jumbo 1/2 */
+.jumbotron {
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
-#jumbotron .text-jumbo {
-    padding-top: 350px;
+.text-jumbo {
+    padding-top: 250px;
     color: #fff;
 }
-#jumbotron img {
+.jumbotron .title-jumbo-img {
     width: 250px;
     height: auto;
 }
-#jumbotron .text-jumbo h1 {
+.text-jumbo h1 {
     font-size: 45px;
     margin-bottom: 30px;
 }
-#jumbotron .btn-warning:focus {
+.btn-warning:focus {
     box-shadow: none;
 }
-#jumbotron .btn-warning {
+.btn-warning {
     background-color: #cd3d0f;
     border-color: #cd3d0f;
     color: #fff;
 }
 
+/* jumbo 1 */
+#bg-image-jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    min-height: 675px;
+}
 #more-img-jumbo img {
     width: 100%;
     height: auto;
@@ -76,6 +78,7 @@ body {
     border-radius: 20px;
     padding: 2px;
 }
+
 /* sez presentation playstation */
 #presentation a {
     text-decoration: none;
@@ -100,24 +103,17 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #0072ce;
 }
-/* jumbotron 2 */
-/* debug */
-.jumbotron {
-    width: 100%;
-    min-height: 400px;
-    background-color: red;
+/* jumbo 2 */
+#jumbotron-img-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 50px 0;
+
 }
-.jumbotron .text-jumbo {
-    color: #fff;
-}
-.jumbotron .text-jumbo img {
+#jumbotron-img-two .text-jumbo img {
     width: 250px;
     height: auto;
+}
+#jumbotron-img-two .text-jumbo {
+    padding: 0;
 }
 /* sez nuove uscite */
 #new {
