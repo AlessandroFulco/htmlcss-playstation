@@ -17,6 +17,10 @@ body {
 .fl-brt {
     filter: opacity(50%);
 }
+.sub-title {
+    color: #888;
+    font-size: 20px;
+}
 /* regole nav-bar components BS5 */
 header {
     position: fixed;
